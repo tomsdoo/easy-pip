@@ -1,0 +1,28 @@
+{
+  "name": "@tomsd/easy-pip",
+  "version": "0.1.0",
+  "main": "dist/index.global.js",
+  "scripts": {
+    "build": "tsup",
+    "prepare": "playwright install",
+    "test": "vitest"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "tomsd",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node22": "22.0.0",
+    "@types/node": "22.10.2",
+    "@vitest/browser": "2.1.8",
+    "http-server": "14.1.1",
+    "playwright": "1.49.1",
+    "tsup": "8.3.5",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "vitest": "2.1.8"
+  }
+}
