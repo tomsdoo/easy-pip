@@ -13,6 +13,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomsdoo/easy-pip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomsdoo/easy-pip/issues"
+  },
+  "homepage": "https://github.com/tomsdoo/easy-pip#readme",
   "keywords": [],
   "author": "tomsd",
   "license": "MIT",
