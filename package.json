@@ -4,6 +4,8 @@
   "main": "dist/index.global.js",
   "scripts": {
     "build": "tsup",
+    "serve": "http-server dist",
+    "dev": "npm run build && npm run serve",
     "prepare": "playwright install",
     "test": "vitest"
   },
